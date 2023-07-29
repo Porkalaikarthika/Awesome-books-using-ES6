@@ -6,7 +6,7 @@ export class book {
     }
 
     displayBook(index) {
-        const bookElement = document.createElement('section');
+        let bookElement = document.createElement('section');
         // const index = books.indexOf(this);
         bookElement.classList.add('flexSec');
         bookElement.innerHTML = `
@@ -35,9 +35,10 @@ export class book {
     }
 
     save() {
-        const bookjson = JSON.stringify(books);
+        let bookjson = JSON.stringify(books);
         localStorage.setItem('bookStore', bookjson);
 
     }
 
 }
+

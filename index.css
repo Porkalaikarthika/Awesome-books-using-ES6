@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+li:hover {
+    color: rgb(18, 141, 230);
+    cursor: pointer;
+    font-weight: 600;    
+    transition: all 0.1s ease-in-out;
+}
+
+#listElement {
+    border: 2px solid black;
+    margin: 5%;
+}
+
+.flexSec {
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brown {
+    background-color: rgb(243, 225, 225);
+}
+
+.white {
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    margin: 1% 25% 1% 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    text-align: start;
+    padding: 1vw 1.1vw 1vw 1.5vw;
+    width: 35vw;
+    border-radius: 0.55vw;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 1vw;
+}
+
+button {
+    box-shadow: 4px 3px 2px #000;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    padding: 0.1vw 0.9vw;    
+    border-radius: 0.2rem;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightslategray;
+    color: white;
+}
+
+.addBtn {
+    position: absolute;
+    right: 31.5vw;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1vw;
+}
+
+.nav-bar ul {     
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    list-style: none;   
+}
+
+ul li {
+    padding-right: 1rem;   
+}
+
+.nav-bar {
+    width: min(630px, 94%);
+    top: 0;
+    padding: 0.5rem;
+    border: 1px solid rgb(54, 51, 51);
+    width: 100%;
+    position: fixed;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    background-color: rgb(250, 248, 245);
+}
+
+.main {
+    margin-top: 100px;
+    text-align:center;
+    margin-bottom: 100px;
+    
+}
+
+/* #contact {
+   margin-top: 5vw;
+    width: min(630px, 94%);
+    margin-bottom: 5vw;
+} */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this value to center the content vertically based on your page height */
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    margin: 10px 0;
+  }
+  
+
+.footer {
+    bottom: 0;
+    padding: 1rem;
+    border: 1px solid rgb(54, 51, 51);
+    width: 100%;
+    position: fixed;
+    text-align: left;    
+    align-items: center;
+    z-index: 3;
+    background-color: rgb(250, 248, 245);
+}
