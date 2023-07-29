@@ -1,0 +1,10 @@
+export const title = document.getElementById('title');
+export const author = document.getElementById('author');
+export const addBtn = document.getElementById('addBtn');
+export const listElement = document.getElementById('listElement');
+export const addNew = document.getElementById('addNew');
+export const contact = document.getElementById('contact');
+export const btnList = document.getElementById('btn-list');
+export const btnaddNew = document.getElementById('btn-addNew');
+export const btnContact = document.getElementById('btn-contact');
+export let books = []; 
